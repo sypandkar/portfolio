@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/********* Nvbar starts***********/
+.nav-item a {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2px 100px;
+  color: aliceblue;
+  font-weight: bold;
+}
+.nav-item .nav-link:hover {
+  text-decoration: none;
+  color: yellow;
+  font-weight: bold;
+}
+/********* Nvbar ends ***********/
+/******jumbotron starts *******/
+.person {
+  background-color: black;
+  height: 40vh;
+}
+.display-4 {
+  font-weight: 400;
+  color: azure;
+  padding-top: 10%;
+}
+.lead {
+  color: red;
+}
+/******jumbotron ends *******/
+/******gallery starts*******/
+.gallery {
+  background-color: grey;
+  padding: 3%;
+}
+h5 {
+  color: blanchedalmond;
+  font-weight: 600;
+}
+.img {
+  border: 2px solid white;
+  border-radius: 5px;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px turquoise;
+}
+@media screen and (min-width: 576px) {
+  .row-1,
+  .row-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+/******gallery ends*******/
+/********** footer ********/
+#social-links {
+  background-color: black;
+  height: 15vh;
+  text-align: center;
+}
+.facebook {
+  color: blue;
+  margin-right: 20px;
+}
+.instagram {
+  color: red;
+  margin-right: 20px;
+}
+.twitter {
+  color: skyblue;
+  margin-right: 20px;
+}
+.plus {
+  color: orangered;
+}
+
+#social-links a {
+  display: inline-block;
+  font-size: 50px;
+  padding-top: 15px;
+  transition: transform 2s ease, color 2s ease;
+}
+#social-links a:hover {
+  transform: translateY(-20px);
+  text-decoration: none;
+}
+/********** footer ********/
